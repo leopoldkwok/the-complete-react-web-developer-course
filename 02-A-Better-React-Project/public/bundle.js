@@ -45,6 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var greeter = __webpack_require__(1);
+
 	greeter();
 
 
@@ -53,7 +54,7 @@
 /***/ function(module, exports) {
 
 	function greeter () {
-	  document.write('From gretter function');
+	  document.write('From greeter function');
 	}
 
 	module.exports = greeter;
